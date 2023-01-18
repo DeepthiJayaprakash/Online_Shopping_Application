@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-18T13:16:44 IST" name="Suite" finished-at="2023-01-18T13:16:44 IST" duration-ms="47">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateTest.printcreate()[pri:0, instance:Practice_Maven.CreateTest@6bedbc4d]" name="printcreate" class="Practice_Maven.CreateTest"/>
+        <method signature="updatetest.update()[pri:0, instance:Practice_Maven.updatetest@3e84448c]" name="update" class="Practice_Maven.updatetest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-01-18T13:16:44 IST" name="Test" finished-at="2023-01-18T13:16:44 IST" duration-ms="47">
+      <class name="Practice_Maven.CreateTest">
+        <test-method signature="printcreate()[pri:0, instance:Practice_Maven.CreateTest@6bedbc4d]" started-at="2023-01-18T13:16:44 IST" name="printcreate" finished-at="2023-01-18T13:16:44 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printcreate -->
+      </class> <!-- Practice_Maven.CreateTest -->
+      <class name="Practice_Maven.updatetest">
+        <test-method signature="update()[pri:0, instance:Practice_Maven.updatetest@3e84448c]" started-at="2023-01-18T13:16:44 IST" name="update" finished-at="2023-01-18T13:16:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- Practice_Maven.updatetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
